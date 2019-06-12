@@ -5,7 +5,7 @@ YELLOW='\033[1;33m'
 LCYAN='\033[1;36m'
 NC='\033[0m' # No Color
 
-echo -e "${Yellow}Creating `.prettierrc`... ${NC}"
+echo -e "${YELLOW}Creating ${NC}./.prettierrc ${YELLOW}...${NC}"
 
 touch .prettierrc
 
@@ -14,4 +14,4 @@ echo '{
 }
 ' >> .prettierrc
 
-echo -e "${GREEN}Done! ${NC}"
+echo -e "${GREEN}Done!${NC}"
